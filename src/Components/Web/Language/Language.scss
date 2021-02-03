@@ -1,0 +1,15 @@
+.flag-language {
+	background-color: #37517e;
+	padding: 0px !important;
+
+	&__container {
+		display: flex;
+		justify-content: flex-end;
+
+		img {
+			padding-top: 20px;
+			z-index: 999;
+			cursor: pointer;
+		}
+	}
+}

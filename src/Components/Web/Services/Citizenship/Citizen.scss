@@ -1,0 +1,56 @@
+#citizen {
+	width: 100%;
+	height: 85vh;
+	background: #587dbb;
+}
+
+#citizen .container {
+	padding-top: 72px;
+}
+
+#citizen .btn-get-started {
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 10px 28px 11px 28px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin: 10px 0 0 0;
+	color: #fff;
+	background: #47b2e4;
+	width: 25%;
+}
+
+#citizen .btn-get-started:hover {
+	background: #209dd8;
+}
+.citizen-title,
+.citizen-sub {
+	color: #fff !important;
+}
+
+.citizen .content ul {
+	list-style: none;
+	padding: 0;
+}
+
+.citizen .content ul li {
+	padding-left: 28px;
+	position: relative;
+	color: #fff;
+}
+
+.citizen .content ul li + li {
+	margin-top: 10px;
+}
+
+.citizen .content ul i {
+	position: absolute;
+	left: 0;
+	top: 2px;
+	font-size: 20px;
+	color: #47b2e4;
+	line-height: 1;
+}
